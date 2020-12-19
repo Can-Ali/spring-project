@@ -1,6 +1,5 @@
 package com.cybertek.entity;
 
-import com.fasterxml.jackson.databind.ser.Serializers;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -14,10 +13,10 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 public class Ticket extends BaseEntity {
 
-    @Column(name="seat_number")
+    @Column(name = "seat_number")
     private Integer seatNumber;
 
-    @Column(name="row_number")
+    @Column(name = "row_number")
     private Integer rowNumber;
 
     @Column(columnDefinition = "TIMESTAMP")
