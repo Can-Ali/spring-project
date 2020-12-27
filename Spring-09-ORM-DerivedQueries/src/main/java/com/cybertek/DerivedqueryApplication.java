@@ -21,7 +21,9 @@ public class DerivedqueryApplication {
 	EmployeeRepository employeeRepository;
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(DerivedqueryApplication.class, args);
+
 	}
 
 	@PostConstruct
