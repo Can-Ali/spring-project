@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Spring-01-SpringContainer/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-02-DI-ConstructorInjection/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-02-DI-SetterInjection/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-03-BeanScope-Singleton-Prototype/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-04-BeanLifecycle-Init&amp;Destroy/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-04-BeanLifecycle/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-05-JavaAnnotations-Component/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-05-JavaAnnotations-Autowired/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-05-JavaAnnotations-Qualifier/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-05-Value/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-06-JavaCode-Configuration/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-06-JavaCode-PostConstruct-PreDestroy/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-07-SpringBoot-Demo/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-07-Lab01-IoC-DI/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Controller/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Model/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Form/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-09-ORM-TableCreation/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-09-ORM-Mapping-OneToOne/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-09-ORM-Mapping-ManyToOne/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-09-ORM-Mapping-OneToMany/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-09-ORM-Mapping-ManyToMany/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-09-ORM-CinemaLab/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-09-ORM-DerivedQueries/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-09-ORM-Mapping-JPQL-NamedQueries/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-10-Security-DefaultConfiguration/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-10-Security-CustomConfiguration/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-10-Security-HttpBasic-AutoRoleBase/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-10-Security-HttpBasic-Database/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="false" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
