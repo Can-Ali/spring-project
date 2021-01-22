@@ -31,6 +31,7 @@
         <module name="Spring-02-DI-SetterInjection" />
         <module name="Spring-10-Security-HttpBasic-AutoRoleBase" />
         <module name="Spring-05-JavaAnnotations-Component" />
+        <module name="Spring-10-Security-FormAuthorization" />
         <module name="spring-09-ORM-Mapping-OneToOne" />
         <module name="Spring-05-Value" />
         <module name="Spring-10-Security-CustomConfiguration" />
@@ -64,6 +65,7 @@
       <module name="Spring-09-ORM-TableCreation" target="11" />
       <module name="Spring-10-Security-CustomConfiguration" target="11" />
       <module name="Spring-10-Security-DefaultConfiguration" target="11" />
+      <module name="Spring-10-Security-FormAuthorization" target="11" />
       <module name="Spring-10-Security-HttpBasic-AutoRoleBase" target="11" />
       <module name="Spring-10-Security-HttpBasic-Database" target="11" />
     </bytecodeTargetLevel>
@@ -84,6 +86,7 @@
       <module name="Spring-09-ORM-TableCreation" options="-parameters" />
       <module name="Spring-10-Security-CustomConfiguration" options="-parameters" />
       <module name="Spring-10-Security-DefaultConfiguration" options="-parameters" />
+      <module name="Spring-10-Security-FormAuthorization" options="-parameters" />
       <module name="Spring-10-Security-HttpBasic-AutoRoleBase" options="-parameters" />
       <module name="Spring-10-Security-HttpBasic-Database" options="-parameters" />
       <module name="spring-09-ORM-Mapping-OneToOne" options="-parameters" />

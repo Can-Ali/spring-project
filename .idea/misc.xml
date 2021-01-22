@@ -32,6 +32,7 @@
         <option value="$PROJECT_DIR$/Spring-10-Security-CustomConfiguration/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-10-Security-HttpBasic-AutoRoleBase/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-10-Security-HttpBasic-Database/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-10-Security-FormAuthorization/pom.xml" />
       </list>
     </option>
   </component>
