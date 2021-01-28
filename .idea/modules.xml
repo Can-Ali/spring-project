@@ -32,6 +32,7 @@
       <module fileurl="file://$PROJECT_DIR$/Spring-10-Security-FormAuthorization/Spring-10-Security-FormAuthorization.iml" filepath="$PROJECT_DIR$/Spring-10-Security-FormAuthorization/Spring-10-Security-FormAuthorization.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-10-Security-HttpBasic-AutoRoleBase/Spring-10-Security-HttpBasic-AutoRoleBase.iml" filepath="$PROJECT_DIR$/Spring-10-Security-HttpBasic-AutoRoleBase/Spring-10-Security-HttpBasic-AutoRoleBase.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-10-Security-HttpBasic-Database/Spring-10-Security-HttpBasic-Database.iml" filepath="$PROJECT_DIR$/Spring-10-Security-HttpBasic-Database/Spring-10-Security-HttpBasic-Database.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-11-HttpVerbs-Legacy/Spring-11-HttpVerbs-Legacy.iml" filepath="$PROJECT_DIR$/Spring-11-HttpVerbs-Legacy/Spring-11-HttpVerbs-Legacy.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-09-ORM-Mapping-OneToOne/spring-09-ORM-Mapping-OneToOne.iml" filepath="$PROJECT_DIR$/spring-09-ORM-Mapping-OneToOne/spring-09-ORM-Mapping-OneToOne.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-project.iml" filepath="$PROJECT_DIR$/.idea/spring-project.iml" />
     </modules>
