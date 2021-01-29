@@ -19,6 +19,8 @@
     <file url="file://$PROJECT_DIR$/Spring-10-Security-HttpBasic-AutoRoleBase/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-10-Security-HttpBasic-Database/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-11-HttpVerbs-Legacy/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-11-HttpVerbs-RestPreferred/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-11-HttpVerbs-RestResponseEntity/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-09-ORM-Mapping-OneToOne/src/main/java" charset="UTF-8" />
   </component>
 </project>

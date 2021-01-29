@@ -15,6 +15,7 @@
         <module name="Spring-09-ORM-TableCreation" />
         <module name="Spring-09-ORM-Mapping-ManyToOne" />
         <module name="Spring-06-JavaCode-Configuration" />
+        <module name="Spring-11-HttpVerbs-RestPreferred" />
         <module name="Spring-11-HttpVerbs-Legacy" />
         <module name="Spring-06-JavaCode-PostConstruct-PreDestroy" />
         <module name="Spring-04-BeanLifecycle" />
@@ -23,6 +24,7 @@
         <module name="Spring-07-Lab01-IoC-DI" />
         <module name="Spring-08-SpringBoot-MVC-Controller" />
         <module name="Spring-09-ORM-Mapping-OneToMany" />
+        <module name="Spring-11-HttpVerbs-RestResponseEntity" />
         <module name="Spring-02-DI-ConstructorInjection" />
         <module name="Spring-09-ORM-CinemaLab" />
         <module name="Spring-10-Security-HttpBasic-Database" />
@@ -70,6 +72,8 @@
       <module name="Spring-10-Security-HttpBasic-AutoRoleBase" target="11" />
       <module name="Spring-10-Security-HttpBasic-Database" target="11" />
       <module name="Spring-11-HttpVerbs-Legacy" target="11" />
+      <module name="Spring-11-HttpVerbs-RestPreferred" target="11" />
+      <module name="Spring-11-HttpVerbs-RestResponseEntity" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -92,6 +96,8 @@
       <module name="Spring-10-Security-HttpBasic-AutoRoleBase" options="-parameters" />
       <module name="Spring-10-Security-HttpBasic-Database" options="-parameters" />
       <module name="Spring-11-HttpVerbs-Legacy" options="-parameters" />
+      <module name="Spring-11-HttpVerbs-RestPreferred" options="-parameters" />
+      <module name="Spring-11-HttpVerbs-RestResponseEntity" options="-parameters" />
       <module name="spring-09-ORM-Mapping-OneToOne" options="-parameters" />
     </option>
   </component>

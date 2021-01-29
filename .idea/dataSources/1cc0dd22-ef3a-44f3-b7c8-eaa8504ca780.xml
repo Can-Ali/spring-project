@@ -785,14 +785,14 @@ false Z
 false Zulu
 false posixrules
 </TimeZones>
-      <StartupTime>1611042924</StartupTime>
+      <StartupTime>1611690223</StartupTime>
     </root>
     <database id="2" parent="1" name="cybertek">
       <ObjectId>16443</ObjectId>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>4945</IntrospectionStateNumber>
+      <IntrospectionStateNumber>5013</IntrospectionStateNumber>
       <Current>1</Current>
-      <Relations>sequence|table|31746|31748|1
+      <Relations>sequence|table|31862|31864|1
 </Relations>
     </database>
     <database id="3" parent="1" name="postgres">
@@ -828,7 +828,7 @@ false posixrules
       <Comment>standard public schema</Comment>
       <StateNumber>663</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>4946</IntrospectionStateNumber>
+      <IntrospectionStateNumber>5014</IntrospectionStateNumber>
       <Current>1</Current>
     </schema>
     <access-method id="9" parent="2" name="btree">
@@ -891,68 +891,43 @@ false posixrules
     <language id="17" parent="2" name="internal"/>
     <language id="18" parent="2" name="plpgsql"/>
     <language id="19" parent="2" name="sql"/>
-    <sequence id="20" parent="8" name="users_id_seq">
-      <ObjectId>31746</ObjectId>
+    <sequence id="20" parent="8" name="product_id_seq">
+      <ObjectId>31862</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>4943</StateNumber>
+      <StateNumber>5008</StateNumber>
     </sequence>
-    <table id="21" parent="8" name="users">
-      <ObjectId>31748</ObjectId>
+    <table id="21" parent="8" name="product">
+      <ObjectId>31864</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>4943</StateNumber>
+      <StateNumber>5008</StateNumber>
     </table>
     <column id="22" parent="21" name="id">
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>4943</StateNumber>
-      <DefaultExpression>nextval(&apos;users_id_seq&apos;::regclass)</DefaultExpression>
+      <StateNumber>5008</StateNumber>
+      <DefaultExpression>nextval(&apos;product_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>20</TypeId>
     </column>
-    <column id="23" parent="21" name="active">
+    <column id="23" parent="21" name="name">
       <Position>2</Position>
-      <DataType>integer|0s</DataType>
-      <NotNull>1</NotNull>
-      <StateNumber>4943</StateNumber>
-      <TypeId>23</TypeId>
-    </column>
-    <column id="24" parent="21" name="password">
-      <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
-      <StateNumber>4943</StateNumber>
+      <StateNumber>5008</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="25" parent="21" name="permissions">
-      <Position>4</Position>
-      <DataType>varchar(255)|0s</DataType>
-      <StateNumber>4943</StateNumber>
-      <TypeId>1043</TypeId>
-    </column>
-    <column id="26" parent="21" name="roles">
-      <Position>5</Position>
-      <DataType>varchar(255)|0s</DataType>
-      <StateNumber>4943</StateNumber>
-      <TypeId>1043</TypeId>
-    </column>
-    <column id="27" parent="21" name="username">
-      <Position>6</Position>
-      <DataType>varchar(255)|0s</DataType>
-      <StateNumber>4943</StateNumber>
-      <TypeId>1043</TypeId>
-    </column>
-    <index id="28" parent="21" name="users_pkey">
-      <ObjectId>31755</ObjectId>
-      <StateNumber>4943</StateNumber>
+    <index id="24" parent="21" name="product_pkey">
+      <ObjectId>31868</ObjectId>
+      <StateNumber>5008</StateNumber>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
     </index>
-    <key id="29" parent="21" name="users_pkey">
-      <ObjectId>31756</ObjectId>
-      <StateNumber>4943</StateNumber>
+    <key id="25" parent="21" name="product_pkey">
+      <ObjectId>31869</ObjectId>
+      <StateNumber>5008</StateNumber>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
-      <UnderlyingIndexName>users_pkey</UnderlyingIndexName>
+      <UnderlyingIndexName>product_pkey</UnderlyingIndexName>
     </key>
   </database-model>
 </dataSource>
