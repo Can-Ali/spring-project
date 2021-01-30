@@ -35,6 +35,7 @@
       <module fileurl="file://$PROJECT_DIR$/Spring-11-HttpVerbs-Legacy/Spring-11-HttpVerbs-Legacy.iml" filepath="$PROJECT_DIR$/Spring-11-HttpVerbs-Legacy/Spring-11-HttpVerbs-Legacy.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-11-HttpVerbs-RestPreferred/Spring-11-HttpVerbs-RestPreferred.iml" filepath="$PROJECT_DIR$/Spring-11-HttpVerbs-RestPreferred/Spring-11-HttpVerbs-RestPreferred.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-11-HttpVerbs-RestResponseEntity/Spring-11-HttpVerbs-RestResponseEntity.iml" filepath="$PROJECT_DIR$/Spring-11-HttpVerbs-RestResponseEntity/Spring-11-HttpVerbs-RestResponseEntity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-11-Rest-Jackson/Spring-11-Rest-Jackson.iml" filepath="$PROJECT_DIR$/Spring-11-Rest-Jackson/Spring-11-Rest-Jackson.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-09-ORM-Mapping-OneToOne/spring-09-ORM-Mapping-OneToOne.iml" filepath="$PROJECT_DIR$/spring-09-ORM-Mapping-OneToOne/spring-09-ORM-Mapping-OneToOne.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-project.iml" filepath="$PROJECT_DIR$/.idea/spring-project.iml" />
     </modules>

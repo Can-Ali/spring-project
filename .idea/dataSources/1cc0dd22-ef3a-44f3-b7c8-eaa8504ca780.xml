@@ -790,9 +790,17 @@ false posixrules
     <database id="2" parent="1" name="cybertek">
       <ObjectId>16443</ObjectId>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>5013</IntrospectionStateNumber>
+      <IntrospectionStateNumber>5048</IntrospectionStateNumber>
       <Current>1</Current>
-      <Relations>sequence|table|31862|31864|1
+      <Relations>sequence|table|31870|31872|1
+sequence|table|31878|31880|1
+sequence|table|31889|31891|1
+sequence|table|31900|31902|1
+sequence|table|31908|31910|1
+sequence|table|31919|31921|1
+sequence|table|31933|31935|1
+sequence|table|31941|31943|1
+sequence|table|31949|31951|1
 </Relations>
     </database>
     <database id="3" parent="1" name="postgres">
@@ -828,7 +836,7 @@ false posixrules
       <Comment>standard public schema</Comment>
       <StateNumber>663</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>5014</IntrospectionStateNumber>
+      <IntrospectionStateNumber>5049</IntrospectionStateNumber>
       <Current>1</Current>
     </schema>
     <access-method id="9" parent="2" name="btree">
@@ -891,43 +899,632 @@ false posixrules
     <language id="17" parent="2" name="internal"/>
     <language id="18" parent="2" name="plpgsql"/>
     <language id="19" parent="2" name="sql"/>
-    <sequence id="20" parent="8" name="product_id_seq">
-      <ObjectId>31862</ObjectId>
+    <sequence id="20" parent="8" name="account_details_id_seq">
+      <ObjectId>31878</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>5008</StateNumber>
+      <StateNumber>5022</StateNumber>
     </sequence>
-    <table id="21" parent="8" name="product">
-      <ObjectId>31864</ObjectId>
+    <sequence id="21" parent="8" name="cinema_id_seq">
+      <ObjectId>31889</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>5008</StateNumber>
+      <StateNumber>5023</StateNumber>
+    </sequence>
+    <sequence id="22" parent="8" name="genre_id_seq">
+      <ObjectId>31900</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>5024</StateNumber>
+    </sequence>
+    <sequence id="23" parent="8" name="location_id_seq">
+      <ObjectId>31908</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>5025</StateNumber>
+    </sequence>
+    <sequence id="24" parent="8" name="movie_cinema_id_seq">
+      <ObjectId>31933</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>5028</StateNumber>
+    </sequence>
+    <sequence id="25" parent="8" name="movie_id_seq">
+      <ObjectId>31919</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>5026</StateNumber>
+    </sequence>
+    <sequence id="26" parent="8" name="product_id_seq">
+      <ObjectId>31870</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>5017</StateNumber>
+    </sequence>
+    <sequence id="27" parent="8" name="ticket_id_seq">
+      <ObjectId>31941</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>5029</StateNumber>
+    </sequence>
+    <sequence id="28" parent="8" name="user_account_id_seq">
+      <ObjectId>31949</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>5030</StateNumber>
+    </sequence>
+    <table id="29" parent="8" name="account_details">
+      <ObjectId>31880</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>5038</StateNumber>
     </table>
-    <column id="22" parent="21" name="id">
+    <table id="30" parent="8" name="cinema">
+      <ObjectId>31891</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>5034</StateNumber>
+    </table>
+    <table id="31" parent="8" name="genre">
+      <ObjectId>31902</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>5032</StateNumber>
+    </table>
+    <table id="32" parent="8" name="location">
+      <ObjectId>31910</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>5031</StateNumber>
+    </table>
+    <table id="33" parent="8" name="movie">
+      <ObjectId>31921</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>5035</StateNumber>
+    </table>
+    <table id="34" parent="8" name="movie_cinema">
+      <ObjectId>31935</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>5036</StateNumber>
+    </table>
+    <table id="35" parent="8" name="movie_genre_rel">
+      <ObjectId>31930</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>5033</StateNumber>
+    </table>
+    <table id="36" parent="8" name="product">
+      <ObjectId>31872</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>5017</StateNumber>
+    </table>
+    <table id="37" parent="8" name="ticket">
+      <ObjectId>31943</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>5037</StateNumber>
+    </table>
+    <table id="38" parent="8" name="user_account">
+      <ObjectId>31951</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>5038</StateNumber>
+    </table>
+    <column id="39" parent="29" name="id">
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>5008</StateNumber>
-      <DefaultExpression>nextval(&apos;product_id_seq&apos;::regclass)</DefaultExpression>
+      <StateNumber>5022</StateNumber>
+      <DefaultExpression>nextval(&apos;account_details_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>20</TypeId>
     </column>
-    <column id="23" parent="21" name="name">
+    <column id="40" parent="29" name="address">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
-      <StateNumber>5008</StateNumber>
+      <StateNumber>5022</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <index id="24" parent="21" name="product_pkey">
-      <ObjectId>31868</ObjectId>
-      <StateNumber>5008</StateNumber>
+    <column id="41" parent="29" name="age">
+      <Position>3</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>5022</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="42" parent="29" name="city">
+      <Position>4</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <StateNumber>5022</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="43" parent="29" name="country">
+      <Position>5</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <StateNumber>5022</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="44" parent="29" name="name">
+      <Position>6</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <StateNumber>5022</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="45" parent="29" name="postal_code">
+      <Position>7</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <StateNumber>5022</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="46" parent="29" name="role">
+      <Position>8</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <StateNumber>5022</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="47" parent="29" name="state">
+      <Position>9</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <StateNumber>5022</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="48" parent="29" name="account_details_pkey">
+      <ObjectId>31887</ObjectId>
+      <StateNumber>5022</StateNumber>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
     </index>
-    <key id="25" parent="21" name="product_pkey">
-      <ObjectId>31869</ObjectId>
-      <StateNumber>5008</StateNumber>
+    <key id="49" parent="29" name="account_details_pkey">
+      <ObjectId>31888</ObjectId>
+      <StateNumber>5022</StateNumber>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>account_details_pkey</UnderlyingIndexName>
+    </key>
+    <column id="50" parent="30" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>5023</StateNumber>
+      <DefaultExpression>nextval(&apos;cinema_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="51" parent="30" name="name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <StateNumber>5023</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="52" parent="30" name="sponsored_name">
+      <Position>3</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <StateNumber>5023</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="53" parent="30" name="location_id">
+      <Position>4</Position>
+      <DataType>bigint|0s</DataType>
+      <StateNumber>5023</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <index id="54" parent="30" name="cinema_pkey">
+      <ObjectId>31898</ObjectId>
+      <StateNumber>5023</StateNumber>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="55" parent="30" name="cinema_pkey">
+      <ObjectId>31899</ObjectId>
+      <StateNumber>5023</StateNumber>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>cinema_pkey</UnderlyingIndexName>
+    </key>
+    <foreign-key id="56" parent="30" name="fk8s0buef0qbajq608344o3mmvl">
+      <ObjectId>31960</ObjectId>
+      <StateNumber>5031</StateNumber>
+      <ColNames>location_id</ColNames>
+      <RefTableId>31910</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>location</RefTableName>
+      <RefKeyName>location_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="57" parent="31" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>5024</StateNumber>
+      <DefaultExpression>nextval(&apos;genre_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="58" parent="31" name="name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <StateNumber>5024</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="59" parent="31" name="genre_pkey">
+      <ObjectId>31906</ObjectId>
+      <StateNumber>5024</StateNumber>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="60" parent="31" name="genre_pkey">
+      <ObjectId>31907</ObjectId>
+      <StateNumber>5024</StateNumber>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>genre_pkey</UnderlyingIndexName>
+    </key>
+    <column id="61" parent="32" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>5025</StateNumber>
+      <DefaultExpression>nextval(&apos;location_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="62" parent="32" name="address">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <StateNumber>5025</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="63" parent="32" name="city">
+      <Position>3</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <StateNumber>5025</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="64" parent="32" name="country">
+      <Position>4</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <StateNumber>5025</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="65" parent="32" name="langitude">
+      <Position>5</Position>
+      <DataType>numeric(19,2 digit)|0s</DataType>
+      <StateNumber>5025</StateNumber>
+      <TypeId>1700</TypeId>
+    </column>
+    <column id="66" parent="32" name="latitude">
+      <Position>6</Position>
+      <DataType>numeric(19,2 digit)|0s</DataType>
+      <StateNumber>5025</StateNumber>
+      <TypeId>1700</TypeId>
+    </column>
+    <column id="67" parent="32" name="name">
+      <Position>7</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <StateNumber>5025</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="68" parent="32" name="postal_code">
+      <Position>8</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <StateNumber>5025</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="69" parent="32" name="state">
+      <Position>9</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <StateNumber>5025</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="70" parent="32" name="location_pkey">
+      <ObjectId>31917</ObjectId>
+      <StateNumber>5025</StateNumber>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="71" parent="32" name="location_pkey">
+      <ObjectId>31918</ObjectId>
+      <StateNumber>5025</StateNumber>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>location_pkey</UnderlyingIndexName>
+    </key>
+    <column id="72" parent="33" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>5026</StateNumber>
+      <DefaultExpression>nextval(&apos;movie_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="73" parent="33" name="duration">
+      <Position>2</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>5026</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="74" parent="33" name="name">
+      <Position>3</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <StateNumber>5026</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="75" parent="33" name="price">
+      <Position>4</Position>
+      <DataType>numeric(19,2 digit)|0s</DataType>
+      <StateNumber>5026</StateNumber>
+      <TypeId>1700</TypeId>
+    </column>
+    <column id="76" parent="33" name="release_date">
+      <Position>5</Position>
+      <DataType>date|0s</DataType>
+      <StateNumber>5026</StateNumber>
+      <TypeId>1082</TypeId>
+    </column>
+    <column id="77" parent="33" name="state">
+      <Position>6</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <StateNumber>5026</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="78" parent="33" name="summary">
+      <Position>7</Position>
+      <DataType>text|0s</DataType>
+      <StateNumber>5026</StateNumber>
+      <TypeId>25</TypeId>
+    </column>
+    <column id="79" parent="33" name="type">
+      <Position>8</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <StateNumber>5026</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="80" parent="33" name="movie_pkey">
+      <ObjectId>31928</ObjectId>
+      <StateNumber>5026</StateNumber>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="81" parent="33" name="movie_pkey">
+      <ObjectId>31929</ObjectId>
+      <StateNumber>5026</StateNumber>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>movie_pkey</UnderlyingIndexName>
+    </key>
+    <column id="82" parent="34" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>5028</StateNumber>
+      <DefaultExpression>nextval(&apos;movie_cinema_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="83" parent="34" name="date_time">
+      <Position>2</Position>
+      <DataType>timestamp|0s</DataType>
+      <StateNumber>5028</StateNumber>
+      <TypeId>1114</TypeId>
+    </column>
+    <column id="84" parent="34" name="cinema_id">
+      <Position>3</Position>
+      <DataType>bigint|0s</DataType>
+      <StateNumber>5028</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="85" parent="34" name="movie_id">
+      <Position>4</Position>
+      <DataType>bigint|0s</DataType>
+      <StateNumber>5028</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <index id="86" parent="34" name="movie_cinema_pkey">
+      <ObjectId>31939</ObjectId>
+      <StateNumber>5028</StateNumber>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="87" parent="34" name="movie_cinema_pkey">
+      <ObjectId>31940</ObjectId>
+      <StateNumber>5028</StateNumber>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>movie_cinema_pkey</UnderlyingIndexName>
+    </key>
+    <foreign-key id="88" parent="34" name="fk3bn2ho0qwu0c7tqfmxj8fuygn">
+      <ObjectId>31975</ObjectId>
+      <StateNumber>5034</StateNumber>
+      <ColNames>cinema_id</ColNames>
+      <RefTableId>31891</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>cinema</RefTableName>
+      <RefKeyName>cinema_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="89" parent="34" name="fk2trmgwjpvxxd4q7kcupa6m1vu">
+      <ObjectId>31980</ObjectId>
+      <StateNumber>5035</StateNumber>
+      <ColNames>movie_id</ColNames>
+      <RefTableId>31921</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>movie</RefTableName>
+      <RefKeyName>movie_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="90" parent="35" name="movie_id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>5027</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="91" parent="35" name="genre_id">
+      <Position>2</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>5027</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <foreign-key id="92" parent="35" name="fk7nhifftq0au66clnpt18bc9ut">
+      <ObjectId>31970</ObjectId>
+      <StateNumber>5033</StateNumber>
+      <ColNames>movie_id</ColNames>
+      <RefTableId>31921</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>movie</RefTableName>
+      <RefKeyName>movie_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="93" parent="35" name="fkj6inrcrjt89pje7q4wkc8cvm1">
+      <ObjectId>31965</ObjectId>
+      <StateNumber>5032</StateNumber>
+      <ColNames>genre_id</ColNames>
+      <RefTableId>31902</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>genre</RefTableName>
+      <RefKeyName>genre_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="94" parent="36" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>5017</StateNumber>
+      <DefaultExpression>nextval(&apos;product_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="95" parent="36" name="name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <StateNumber>5017</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="96" parent="36" name="product_pkey">
+      <ObjectId>31876</ObjectId>
+      <StateNumber>5017</StateNumber>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="97" parent="36" name="product_pkey">
+      <ObjectId>31877</ObjectId>
+      <StateNumber>5017</StateNumber>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
       <UnderlyingIndexName>product_pkey</UnderlyingIndexName>
     </key>
+    <column id="98" parent="37" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>5029</StateNumber>
+      <DefaultExpression>nextval(&apos;ticket_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="99" parent="37" name="date_time">
+      <Position>2</Position>
+      <DataType>timestamp|0s</DataType>
+      <StateNumber>5029</StateNumber>
+      <TypeId>1114</TypeId>
+    </column>
+    <column id="100" parent="37" name="row_number">
+      <Position>3</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>5029</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="101" parent="37" name="seat_number">
+      <Position>4</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>5029</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="102" parent="37" name="movie_cinema_id">
+      <Position>5</Position>
+      <DataType>bigint|0s</DataType>
+      <StateNumber>5029</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="103" parent="37" name="user_account_id">
+      <Position>6</Position>
+      <DataType>bigint|0s</DataType>
+      <StateNumber>5029</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <index id="104" parent="37" name="ticket_pkey">
+      <ObjectId>31947</ObjectId>
+      <StateNumber>5029</StateNumber>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="105" parent="37" name="ticket_pkey">
+      <ObjectId>31948</ObjectId>
+      <StateNumber>5029</StateNumber>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>ticket_pkey</UnderlyingIndexName>
+    </key>
+    <foreign-key id="106" parent="37" name="fknsvmk94qaru0s4ojnbpn6annb">
+      <ObjectId>31985</ObjectId>
+      <StateNumber>5036</StateNumber>
+      <ColNames>movie_cinema_id</ColNames>
+      <RefTableId>31935</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>movie_cinema</RefTableName>
+      <RefKeyName>movie_cinema_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="107" parent="37" name="fk7tjg2ere9k3sy94bt7c8a2jbt">
+      <ObjectId>31990</ObjectId>
+      <StateNumber>5037</StateNumber>
+      <ColNames>user_account_id</ColNames>
+      <RefTableId>31951</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>user_account</RefTableName>
+      <RefKeyName>user_account_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="108" parent="38" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>5030</StateNumber>
+      <DefaultExpression>nextval(&apos;user_account_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="109" parent="38" name="email">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <StateNumber>5030</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="110" parent="38" name="password">
+      <Position>3</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <StateNumber>5030</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="111" parent="38" name="username">
+      <Position>4</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <StateNumber>5030</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="112" parent="38" name="account_details_id">
+      <Position>5</Position>
+      <DataType>bigint|0s</DataType>
+      <StateNumber>5030</StateNumber>
+      <TypeId>20</TypeId>
+    </column>
+    <index id="113" parent="38" name="user_account_pkey">
+      <ObjectId>31958</ObjectId>
+      <StateNumber>5030</StateNumber>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="114" parent="38" name="user_account_pkey">
+      <ObjectId>31959</ObjectId>
+      <StateNumber>5030</StateNumber>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>user_account_pkey</UnderlyingIndexName>
+    </key>
+    <foreign-key id="115" parent="38" name="fksukm6xaj1w3rd96a82j1sy6dq">
+      <ObjectId>31995</ObjectId>
+      <StateNumber>5038</StateNumber>
+      <ColNames>account_details_id</ColNames>
+      <RefTableId>31880</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>account_details</RefTableName>
+      <RefKeyName>account_details_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
   </database-model>
 </dataSource>
