@@ -29,6 +29,7 @@
         <module name="Spring-02-DI-ConstructorInjection" />
         <module name="Spring-09-ORM-CinemaLab" />
         <module name="Spring-10-Security-HttpBasic-Database" />
+        <module name="Spring-11-Rest-OpenAPI3.0" />
         <module name="Spring-10-Security-DefaultConfiguration" />
         <module name="Spring-09-ORM-Mapping-ManyToMany" />
         <module name="Spring-09-ORM-DerivedQueries" />
@@ -78,6 +79,7 @@
       <module name="Spring-11-HttpVerbs-RestPreferred" target="11" />
       <module name="Spring-11-HttpVerbs-RestResponseEntity" target="11" />
       <module name="Spring-11-Rest-Jackson" target="11" />
+      <module name="Spring-11-Rest-OpenAPI3.0" target="11" />
       <module name="Spring-11-Rest-RestTemplate" target="11" />
       <module name="Spring-11-Rest-SchoolLab" target="11" />
     </bytecodeTargetLevel>
@@ -105,6 +107,7 @@
       <module name="Spring-11-HttpVerbs-RestPreferred" options="-parameters" />
       <module name="Spring-11-HttpVerbs-RestResponseEntity" options="-parameters" />
       <module name="Spring-11-Rest-Jackson" options="-parameters" />
+      <module name="Spring-11-Rest-OpenAPI3.0" options="-parameters" />
       <module name="Spring-11-Rest-RestTemplate" options="-parameters" />
       <module name="Spring-11-Rest-SchoolLab" options="-parameters" />
       <module name="spring-09-ORM-Mapping-OneToOne" options="-parameters" />
