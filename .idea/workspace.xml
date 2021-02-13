@@ -22,68 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47d3fad2-c24e-4dec-8137-49d883aecff1" name="Default Changelist" comment="Spring-Rest-OpenAPI3.0">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/.mvn/src/main/java/com/cybertek/JwtApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/.mvn/src/main/java/com/cybertek/annotation/DefaultExceptionMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/.mvn/src/main/java/com/cybertek/config/OpenApiConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/.mvn/src/main/java/com/cybertek/config/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/.mvn/src/main/java/com/cybertek/controller/AuthenticationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/.mvn/src/main/java/com/cybertek/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/.mvn/src/main/java/com/cybertek/entity/AuthenticationRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/.mvn/src/main/java/com/cybertek/entity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/.mvn/src/main/java/com/cybertek/entity/DefaultExceptionMessageDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/.mvn/src/main/java/com/cybertek/entity/ResponseWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/.mvn/src/main/java/com/cybertek/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/.mvn/src/main/java/com/cybertek/enums/UserRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/.mvn/src/main/java/com/cybertek/enums/UserState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/.mvn/src/main/java/com/cybertek/exception/ExceptionMessageHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/.mvn/src/main/java/com/cybertek/exception/ServiceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/.mvn/src/main/java/com/cybertek/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/.mvn/src/main/java/com/cybertek/service/SecurityFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/.mvn/src/main/java/com/cybertek/service/SecurityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/.mvn/src/main/java/com/cybertek/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/.mvn/src/main/java/com/cybertek/util/JWTUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/.mvn/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/.mvn/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/.mvn/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/src/main/java/com/cybertek/JwtApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/src/main/java/com/cybertek/annotation/DefaultExceptionMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/src/main/java/com/cybertek/config/OpenApiConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/src/main/java/com/cybertek/config/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/src/main/java/com/cybertek/controller/AuthenticationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/src/main/java/com/cybertek/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/src/main/java/com/cybertek/entity/AuthenticationRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/src/main/java/com/cybertek/entity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/src/main/java/com/cybertek/entity/DefaultExceptionMessageDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/src/main/java/com/cybertek/entity/ResponseWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/src/main/java/com/cybertek/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/src/main/java/com/cybertek/enums/UserRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/src/main/java/com/cybertek/enums/UserState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/src/main/java/com/cybertek/exception/ExceptionMessageHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/src/main/java/com/cybertek/exception/ServiceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/src/main/java/com/cybertek/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/src/main/java/com/cybertek/service/SecurityFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/src/main/java/com/cybertek/service/SecurityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/src/main/java/com/cybertek/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/src/main/java/com/cybertek/util/JWTUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/src/main/resources/data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1cc0dd22-ef3a-44f3-b7c8-eaa8504ca780.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1cc0dd22-ef3a-44f3-b7c8-eaa8504ca780.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1cc0dd22-ef3a-44f3-b7c8-eaa8504ca780/storage_v2/_src_/database/cybertek.ISHm2Q/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1cc0dd22-ef3a-44f3-b7c8-eaa8504ca780/storage_v2/_src_/database/cybertek.ISHm2Q/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="47d3fad2-c24e-4dec-8137-49d883aecff1" name="Default Changelist" comment="Spring-Security-JWT">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +100,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.OpenapiApplication">
+  <component name="RunManager" selected="Spring Boot.JwtApplication">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -456,7 +397,7 @@
       <workItem from="1612621509481" duration="306000" />
       <workItem from="1612622855292" duration="187000" />
       <workItem from="1612706702272" duration="2626000" />
-      <workItem from="1613076675782" duration="1472000" />
+      <workItem from="1613076675782" duration="2244000" />
     </task>
     <task id="LOCAL-00001" summary="Spring second stage">
       <created>1602965497033</created>
@@ -717,7 +658,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612943601067</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Spring-Security-JWT">
+      <created>1613210233171</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1613210233171</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -737,7 +685,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Spring MVC form controller" />
     <MESSAGE value="Spring ORM table creation" />
     <MESSAGE value="Spring ORM table Student class config" />
     <MESSAGE value="Repository created for object genereation" />
@@ -762,7 +709,8 @@
     <MESSAGE value="Spring-Rest-RestTemplate" />
     <MESSAGE value="SchoolLab modified with RestWrappper" />
     <MESSAGE value="Spring-Rest-OpenAPI3.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring-Rest-OpenAPI3.0" />
+    <MESSAGE value="Spring-Security-JWT" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring-Security-JWT" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="155" key="#Project_Structure" timestamp="1611949565836">
@@ -892,12 +840,16 @@
     </state>
     <state width="962" height="310" key="GridCell.Tab.2.right/0.23.1920.1107@0.23.1920.1107" timestamp="1609682285183" />
     <state width="563" height="252" key="GridCell.Tab.2.right/0.23.1920.1110@0.23.1920.1110" timestamp="1604519444914" />
-    <state x="17" y="277" key="Vcs.Push.Dialog.v2" timestamp="1612943604018">
+    <state x="381" y="392" key="Maven.ArtifactSearchDialog" timestamp="1613216883611">
+      <screen x="0" y="23" width="1920" height="1105" />
+    </state>
+    <state x="381" y="392" key="Maven.ArtifactSearchDialog/0.23.1920.1105@0.23.1920.1105" timestamp="1613216883611" />
+    <state x="17" y="277" key="Vcs.Push.Dialog.v2" timestamp="1613210235552">
       <screen x="0" y="23" width="1920" height="1105" />
     </state>
     <state x="17" y="276" key="Vcs.Push.Dialog.v2/0.23.1920.1101@0.23.1920.1101" timestamp="1608910909870" />
     <state x="17" y="277" key="Vcs.Push.Dialog.v2/0.23.1920.1103@0.23.1920.1103" timestamp="1612024265978" />
-    <state x="17" y="277" key="Vcs.Push.Dialog.v2/0.23.1920.1105@0.23.1920.1105" timestamp="1612943604018" />
+    <state x="17" y="277" key="Vcs.Push.Dialog.v2/0.23.1920.1105@0.23.1920.1105" timestamp="1613210235552" />
     <state x="17" y="278" key="Vcs.Push.Dialog.v2/0.23.1920.1107@0.23.1920.1107" timestamp="1611347449485" />
     <state x="17" y="278" key="Vcs.Push.Dialog.v2/0.23.1920.1108@0.23.1920.1108" timestamp="1608404204780" />
     <state x="17" y="279" key="Vcs.Push.Dialog.v2/0.23.1920.1110@0.23.1920.1110" timestamp="1608405319702" />
