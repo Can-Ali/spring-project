@@ -23,6 +23,7 @@
         <module name="Spring-03-BeanScope-Singleton-Prototype" />
         <module name="Spring-07-Lab01-IoC-DI" />
         <module name="Spring-08-SpringBoot-MVC-Controller" />
+        <module name="Spring-11-Rest-Security-JWT" />
         <module name="Spring-09-ORM-Mapping-OneToMany" />
         <module name="Spring-11-Rest-Jackson" />
         <module name="Spring-11-HttpVerbs-RestResponseEntity" />
@@ -82,6 +83,7 @@
       <module name="Spring-11-Rest-OpenAPI3.0" target="11" />
       <module name="Spring-11-Rest-RestTemplate" target="11" />
       <module name="Spring-11-Rest-SchoolLab" target="11" />
+      <module name="Spring-11-Rest-Security-JWT" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -110,6 +112,7 @@
       <module name="Spring-11-Rest-OpenAPI3.0" options="-parameters" />
       <module name="Spring-11-Rest-RestTemplate" options="-parameters" />
       <module name="Spring-11-Rest-SchoolLab" options="-parameters" />
+      <module name="Spring-11-Rest-Security-JWT" options="-parameters" />
       <module name="spring-09-ORM-Mapping-OneToOne" options="-parameters" />
     </option>
   </component>

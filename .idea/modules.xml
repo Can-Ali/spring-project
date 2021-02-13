@@ -39,6 +39,7 @@
       <module fileurl="file://$PROJECT_DIR$/Spring-11-Rest-OpenAPI3.0/Spring-11-Rest-OpenAPI3.0.iml" filepath="$PROJECT_DIR$/Spring-11-Rest-OpenAPI3.0/Spring-11-Rest-OpenAPI3.0.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-11-Rest-RestTemplate/Spring-11-Rest-RestTemplate.iml" filepath="$PROJECT_DIR$/Spring-11-Rest-RestTemplate/Spring-11-Rest-RestTemplate.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-11-Rest-SchoolLab/Spring-11-Rest-SchoolLab.iml" filepath="$PROJECT_DIR$/Spring-11-Rest-SchoolLab/Spring-11-Rest-SchoolLab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-11-Rest-Security-JWT/Spring-11-Rest-Security-JWT.iml" filepath="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/Spring-11-Rest-Security-JWT.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-09-ORM-Mapping-OneToOne/spring-09-ORM-Mapping-OneToOne.iml" filepath="$PROJECT_DIR$/spring-09-ORM-Mapping-OneToOne/spring-09-ORM-Mapping-OneToOne.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-project.iml" filepath="$PROJECT_DIR$/.idea/spring-project.iml" />
     </modules>
