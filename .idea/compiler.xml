@@ -39,6 +39,7 @@
         <module name="Spring-10-Security-HttpBasic-AutoRoleBase" />
         <module name="Spring-05-JavaAnnotations-Component" />
         <module name="Spring-10-Security-FormAuthorization" />
+        <module name="Spring-13-UnitTesting-Junit5" />
         <module name="spring-09-ORM-Mapping-OneToOne" />
         <module name="Spring-05-Value" />
         <module name="Spring-11-Rest-RestTemplate" />
@@ -86,6 +87,7 @@
       <module name="Spring-11-Rest-SchoolLab" target="11" />
       <module name="Spring-11-Rest-Security-JWT" target="11" />
       <module name="Spring-12-AOP" target="11" />
+      <module name="Spring-13-UnitTesting-Junit5" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

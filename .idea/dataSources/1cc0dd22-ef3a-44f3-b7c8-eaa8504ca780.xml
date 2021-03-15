@@ -790,8 +790,10 @@ false posixrules
     <database id="2" parent="1" name="cybertek">
       <ObjectId>16443</ObjectId>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>5762</IntrospectionStateNumber>
+      <IntrospectionStateNumber>5779</IntrospectionStateNumber>
       <Current>1</Current>
+      <Relations>sequence|table|48580|48582|1
+</Relations>
     </database>
     <database id="3" parent="1" name="postgres">
       <ObjectId>12669</ObjectId>
@@ -826,7 +828,7 @@ false posixrules
       <Comment>standard public schema</Comment>
       <StateNumber>663</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>5763</IntrospectionStateNumber>
+      <IntrospectionStateNumber>5780</IntrospectionStateNumber>
       <Current>1</Current>
     </schema>
     <access-method id="9" parent="2" name="btree">
@@ -889,5 +891,43 @@ false posixrules
     <language id="17" parent="2" name="internal"/>
     <language id="18" parent="2" name="plpgsql"/>
     <language id="19" parent="2" name="sql"/>
+    <sequence id="20" parent="8" name="product_id_seq">
+      <ObjectId>48580</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>5774</StateNumber>
+    </sequence>
+    <table id="21" parent="8" name="product">
+      <ObjectId>48582</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>5774</StateNumber>
+    </table>
+    <column id="22" parent="21" name="id">
+      <Position>1</Position>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>5774</StateNumber>
+      <DefaultExpression>nextval(&apos;product_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>20</TypeId>
+    </column>
+    <column id="23" parent="21" name="name">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <StateNumber>5774</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="24" parent="21" name="product_pkey">
+      <ObjectId>48586</ObjectId>
+      <StateNumber>5774</StateNumber>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+      <Primary>1</Primary>
+    </index>
+    <key id="25" parent="21" name="product_pkey">
+      <ObjectId>48587</ObjectId>
+      <StateNumber>5774</StateNumber>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>product_pkey</UnderlyingIndexName>
+    </key>
   </database-model>
 </dataSource>
