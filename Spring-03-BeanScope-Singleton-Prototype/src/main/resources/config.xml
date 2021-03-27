@@ -7,7 +7,7 @@
     <bean id="java" class="com.cybertek.services.Java" scope="prototype"></bean>
 
 
-    <bean id="selenium" class="com.cybertek.services.Selenium"></bean>
+    <bean id="selenium" class="com.cybertek.services.Selenium" scope="singleton"></bean>
 
 
 

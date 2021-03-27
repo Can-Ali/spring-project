@@ -22,22 +22,100 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47d3fad2-c24e-4dec-8137-49d883aecff1" name="Default Changelist" comment="Spring-AOP">
-      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Junit5/Spring-13-UnitTesting-Junit5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Junit5/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Junit5/src/main/java/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Junit5/src/main/java/CheckingAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Junit5/src/main/resources/sample-data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Junit5/src/test/java/CalculatorParameterizedTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Junit5/src/test/java/CalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Junit5/src/test/java/CheckingAccountTest.java" afterDir="false" />
+    <list default="true" id="47d3fad2-c24e-4dec-8137-49d883aecff1" name="Default Changelist" comment="Spring-Unit testing">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ognl_ognl_3_1_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_37.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_37.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_20_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_modelmapper_modelmapper_2_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_2_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Mockito/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Mockito/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Mockito/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Mockito/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Mockito/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Mockito/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Mockito/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Mockito/src/main/java/com/cybertek/SpringMvcProjectManagementApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Mockito/src/main/java/com/cybertek/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Mockito/src/main/java/com/cybertek/controller/ProjectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Mockito/src/main/java/com/cybertek/controller/TaskController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Mockito/src/main/java/com/cybertek/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Mockito/src/main/java/com/cybertek/converter/ProjectDtoConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Mockito/src/main/java/com/cybertek/converter/RoleDtoConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Mockito/src/main/java/com/cybertek/converter/TaskDtoConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Mockito/src/main/java/com/cybertek/converter/UserDtoConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Mockito/src/main/java/com/cybertek/dto/ProjectDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Mockito/src/main/java/com/cybertek/dto/RoleDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Mockito/src/main/java/com/cybertek/dto/TaskDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Mockito/src/main/java/com/cybertek/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Mockito/src/main/java/com/cybertek/entity/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Mockito/src/main/java/com/cybertek/entity/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Mockito/src/main/java/com/cybertek/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Mockito/src/main/java/com/cybertek/entity/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Mockito/src/main/java/com/cybertek/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Mockito/src/main/java/com/cybertek/enums/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Mockito/src/main/java/com/cybertek/enums/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Mockito/src/main/java/com/cybertek/exception/TicketingProjectException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Mockito/src/main/java/com/cybertek/implementation/ProjectServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Mockito/src/main/java/com/cybertek/implementation/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Mockito/src/main/java/com/cybertek/implementation/TaskServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Mockito/src/main/java/com/cybertek/implementation/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Mockito/src/main/java/com/cybertek/mapper/MapperUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Mockito/src/main/java/com/cybertek/mapper/ProjectMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Mockito/src/main/java/com/cybertek/mapper/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Mockito/src/main/java/com/cybertek/mapper/TaskMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Mockito/src/main/java/com/cybertek/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Mockito/src/main/java/com/cybertek/repository/ProjectRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Mockito/src/main/java/com/cybertek/repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Mockito/src/main/java/com/cybertek/repository/TaskRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Mockito/src/main/java/com/cybertek/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Mockito/src/main/java/com/cybertek/service/ProjectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Mockito/src/main/java/com/cybertek/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Mockito/src/main/java/com/cybertek/service/TaskService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Mockito/src/main/java/com/cybertek/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Mockito/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Mockito/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Mockito/src/test/java/com/cybertek/implementation/ProjectServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Mockito/src/test/java/com/cybertek/implementation/TaskServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-Mockito/src/test/java/com/cybertek/implementation/UserServiceImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1cc0dd22-ef3a-44f3-b7c8-eaa8504ca780.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1cc0dd22-ef3a-44f3-b7c8-eaa8504ca780.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1cc0dd22-ef3a-44f3-b7c8-eaa8504ca780/storage_v2/_src_/database/cybertek.ISHm2Q/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1cc0dd22-ef3a-44f3-b7c8-eaa8504ca780/storage_v2/_src_/database/cybertek.ISHm2Q/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-12-AOP/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-12-AOP/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-02-DI-SetterInjection/src/main/java/com/cybertek/services/Selenium.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-02-DI-SetterInjection/src/main/java/com/cybertek/services/Selenium.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-02-DI-SetterInjection/src/main/resources/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-02-DI-SetterInjection/src/main/resources/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-02-DI-SetterInjection/target/classes/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-02-DI-SetterInjection/target/classes/config.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +164,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Spring-13-UnitTesting-Junit5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Spring-13-UnitTesting-Mockito" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -108,11 +186,11 @@
       <recent name="cybertek" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Spring-13-UnitTesting-Mockito" />
       <recent name="$PROJECT_DIR$/Spring-13-UnitTesting-Junit5" />
       <recent name="$PROJECT_DIR$/Spring-12-AOP" />
       <recent name="$PROJECT_DIR$/Spring-11-Rest-Security-JWT" />
       <recent name="$PROJECT_DIR$/Spring-11-Rest-Security-JWT/.mvn" />
-      <recent name="$PROJECT_DIR$/Spring-11-Rest-OpenAPI3.0" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -122,16 +200,40 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.AopApplication">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.CybertekApp (1)">
+    <configuration name="CybertekApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.CybertekApp" />
+      <module name="Spring-03-BeanScope-Singleton-Prototype" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CybertekApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.CybertekApp" />
+      <module name="Spring-02-DI-SetterInjection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cybertek.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -189,19 +291,6 @@
     <configuration name="CybertekformApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Spring-08-SpringBoot-MVC-Form" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cybertek.CybertekformApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DerivedqueryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="Spring-09-ORM-DerivedQueries" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cybertek.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cybertek.DerivedqueryApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -265,19 +354,6 @@
     <configuration name="Orm5Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Spring-09-ORM-Mapping-ManyToMany" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.cybertek.Orm5Application" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrmConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="Spring-09-ORM-TableCreation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.cybertek.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cybertek.OrmConfigApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -366,13 +442,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringMvcProjectManagementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Spring-13-UnitTesting-Mockito" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cybertek.SpringMvcProjectManagementApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CybertekApp (1)" />
+        <item itemvalue="Application.CybertekApp" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="Spring Boot.CinemaappApplication" />
         <item itemvalue="Spring Boot.CinemaLabApplication" />
-        <item itemvalue="Spring Boot.DerivedqueryApplication" />
-        <item itemvalue="Spring Boot.OrmConfigApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -433,7 +516,8 @@
       <workItem from="1614457593684" duration="3251000" />
       <workItem from="1614630601585" duration="1374000" />
       <workItem from="1615638678524" duration="616000" />
-      <workItem from="1615697597719" duration="1305000" />
+      <workItem from="1615697597719" duration="2413000" />
+      <workItem from="1616830272423" duration="2841000" />
     </task>
     <task id="LOCAL-00001" summary="Spring second stage">
       <created>1602965497033</created>
@@ -715,7 +799,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614458099051</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Spring-Unit testing">
+      <created>1615839091016</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1615839091016</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -735,7 +826,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Spring ORM table Student class config" />
     <MESSAGE value="Repository created for object genereation" />
     <MESSAGE value="ORM OneToOne Mapping" />
     <MESSAGE value="ORM OneToOne Mapping - Region added" />
@@ -760,69 +850,67 @@
     <MESSAGE value="Spring-Rest-OpenAPI3.0" />
     <MESSAGE value="Spring-Security-JWT" />
     <MESSAGE value="Spring-AOP" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring-AOP" />
+    <MESSAGE value="Spring-Unit testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring-Unit testing" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="155" key="#Project_Structure" timestamp="1613217192936">
-      <screen x="0" y="23" width="1920" height="1105" />
+    <state x="0" y="155" key="#Project_Structure" timestamp="1616832392730">
+      <screen x="0" y="23" width="1920" height="1107" />
     </state>
     <state x="0" y="155" key="#Project_Structure/0.23.1920.1105@0.23.1920.1105" timestamp="1613217192936" />
+    <state x="0" y="155" key="#Project_Structure/0.23.1920.1107@0.23.1920.1107" timestamp="1616832392730" />
     <state x="0" y="155" key="#Project_Structure/0.23.1920.1108@0.23.1920.1108" timestamp="1608308868530" />
     <state x="623" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608914564927">
       <screen x="0" y="23" width="1920" height="1101" />
     </state>
     <state x="623" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.1101@0.23.1920.1101" timestamp="1608914564927" />
-    <state x="623" y="212" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.1108@0.23.1920.1108" timestamp="1607864767903" />
-    <state x="42" y="161" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.1110@0.23.1920.1110" timestamp="1607792601405" />
     <state x="272" y="282" key="#com.intellij.ide.util.MemberChooser" timestamp="1614525278872">
       <screen x="0" y="23" width="1920" height="1105" />
     </state>
     <state x="272" y="282" key="#com.intellij.ide.util.MemberChooser/0.23.1920.1105@0.23.1920.1105" timestamp="1614525278872" />
     <state x="272" y="283" key="#com.intellij.ide.util.MemberChooser/0.23.1920.1108@0.23.1920.1108" timestamp="1608403336853" />
-    <state x="272" y="283" key="#com.intellij.ide.util.MemberChooser/0.23.1920.1110@0.23.1920.1110" timestamp="1607790953083" />
     <state x="160" y="327" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1608397348808">
       <screen x="0" y="23" width="1920" height="1108" />
     </state>
     <state x="160" y="327" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1920.1108@0.23.1920.1108" timestamp="1608397348808" />
-    <state x="160" y="328" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1920.1110@0.23.1920.1110" timestamp="1607791180267" />
     <state x="468" y="327" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608403780470">
       <screen x="0" y="23" width="1920" height="1108" />
     </state>
     <state x="468" y="327" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1920.1108@0.23.1920.1108" timestamp="1608403780470" />
-    <state width="962" height="285" key="GridCell.Tab.0.bottom" timestamp="1614526288722">
-      <screen x="0" y="23" width="1920" height="1105" />
+    <state width="1331" height="305" key="GridCell.Tab.0.bottom" timestamp="1616832878414">
+      <screen x="0" y="23" width="1920" height="1107" />
     </state>
     <state width="951" height="310" key="GridCell.Tab.0.bottom/0.23.1920.1101@0.23.1920.1101" timestamp="1608916166307" />
     <state width="962" height="221" key="GridCell.Tab.0.bottom/0.23.1920.1103@0.23.1920.1103" timestamp="1612040530052" />
     <state width="962" height="285" key="GridCell.Tab.0.bottom/0.23.1920.1105@0.23.1920.1105" timestamp="1614526288722" />
-    <state width="1175" height="442" key="GridCell.Tab.0.bottom/0.23.1920.1107@0.23.1920.1107" timestamp="1613317078337" />
+    <state width="1331" height="305" key="GridCell.Tab.0.bottom/0.23.1920.1107@0.23.1920.1107" timestamp="1616832878414" />
     <state width="891" height="263" key="GridCell.Tab.0.bottom/0.23.1920.1108@0.23.1920.1108" timestamp="1608404519520" />
     <state width="891" height="263" key="GridCell.Tab.0.bottom/0.23.1920.1110@0.23.1920.1110" timestamp="1608491805346" />
-    <state width="962" height="285" key="GridCell.Tab.0.center" timestamp="1614526288711">
-      <screen x="0" y="23" width="1920" height="1105" />
+    <state width="1331" height="305" key="GridCell.Tab.0.center" timestamp="1616832878412">
+      <screen x="0" y="23" width="1920" height="1107" />
     </state>
     <state width="951" height="310" key="GridCell.Tab.0.center/0.23.1920.1101@0.23.1920.1101" timestamp="1608916166306" />
     <state width="962" height="221" key="GridCell.Tab.0.center/0.23.1920.1103@0.23.1920.1103" timestamp="1612040530052" />
     <state width="962" height="285" key="GridCell.Tab.0.center/0.23.1920.1105@0.23.1920.1105" timestamp="1614526288711" />
-    <state width="1175" height="442" key="GridCell.Tab.0.center/0.23.1920.1107@0.23.1920.1107" timestamp="1613317078336" />
+    <state width="1331" height="305" key="GridCell.Tab.0.center/0.23.1920.1107@0.23.1920.1107" timestamp="1616832878412" />
     <state width="891" height="263" key="GridCell.Tab.0.center/0.23.1920.1108@0.23.1920.1108" timestamp="1608404519519" />
     <state width="891" height="263" key="GridCell.Tab.0.center/0.23.1920.1110@0.23.1920.1110" timestamp="1608491805345" />
-    <state width="962" height="285" key="GridCell.Tab.0.left" timestamp="1614526288711">
-      <screen x="0" y="23" width="1920" height="1105" />
+    <state width="1331" height="305" key="GridCell.Tab.0.left" timestamp="1616832878411">
+      <screen x="0" y="23" width="1920" height="1107" />
     </state>
     <state width="951" height="310" key="GridCell.Tab.0.left/0.23.1920.1101@0.23.1920.1101" timestamp="1608916166305" />
     <state width="962" height="221" key="GridCell.Tab.0.left/0.23.1920.1103@0.23.1920.1103" timestamp="1612040530051" />
     <state width="962" height="285" key="GridCell.Tab.0.left/0.23.1920.1105@0.23.1920.1105" timestamp="1614526288711" />
-    <state width="1175" height="442" key="GridCell.Tab.0.left/0.23.1920.1107@0.23.1920.1107" timestamp="1613317078335" />
+    <state width="1331" height="305" key="GridCell.Tab.0.left/0.23.1920.1107@0.23.1920.1107" timestamp="1616832878411" />
     <state width="891" height="263" key="GridCell.Tab.0.left/0.23.1920.1108@0.23.1920.1108" timestamp="1608404519518" />
     <state width="891" height="263" key="GridCell.Tab.0.left/0.23.1920.1110@0.23.1920.1110" timestamp="1608491805344" />
-    <state width="962" height="285" key="GridCell.Tab.0.right" timestamp="1614526288712">
-      <screen x="0" y="23" width="1920" height="1105" />
+    <state width="1331" height="305" key="GridCell.Tab.0.right" timestamp="1616832878413">
+      <screen x="0" y="23" width="1920" height="1107" />
     </state>
     <state width="951" height="310" key="GridCell.Tab.0.right/0.23.1920.1101@0.23.1920.1101" timestamp="1608916166306" />
     <state width="962" height="221" key="GridCell.Tab.0.right/0.23.1920.1103@0.23.1920.1103" timestamp="1612040530052" />
     <state width="962" height="285" key="GridCell.Tab.0.right/0.23.1920.1105@0.23.1920.1105" timestamp="1614526288712" />
-    <state width="1175" height="442" key="GridCell.Tab.0.right/0.23.1920.1107@0.23.1920.1107" timestamp="1613317078336" />
+    <state width="1331" height="305" key="GridCell.Tab.0.right/0.23.1920.1107@0.23.1920.1107" timestamp="1616832878413" />
     <state width="891" height="263" key="GridCell.Tab.0.right/0.23.1920.1108@0.23.1920.1108" timestamp="1608404519519" />
     <state width="891" height="263" key="GridCell.Tab.0.right/0.23.1920.1110@0.23.1920.1110" timestamp="1608491805345" />
     <state width="962" height="285" key="GridCell.Tab.1.bottom" timestamp="1614526288723">
@@ -882,11 +970,11 @@
     </state>
     <state x="381" y="392" key="Maven.ArtifactSearchDialog/0.23.1920.1105@0.23.1920.1105" timestamp="1614525330104" />
     <state x="381" y="393" key="Maven.ArtifactSearchDialog/0.23.1920.1107@0.23.1920.1107" timestamp="1613217990560" />
-    <state x="17" y="277" key="Vcs.Push.Dialog.v2" timestamp="1614458101239">
-      <screen x="0" y="23" width="1920" height="1105" />
+    <state x="17" y="277" key="Vcs.Push.Dialog.v2" timestamp="1615839093453">
+      <screen x="0" y="23" width="1920" height="1103" />
     </state>
     <state x="17" y="276" key="Vcs.Push.Dialog.v2/0.23.1920.1101@0.23.1920.1101" timestamp="1608910909870" />
-    <state x="17" y="277" key="Vcs.Push.Dialog.v2/0.23.1920.1103@0.23.1920.1103" timestamp="1612024265978" />
+    <state x="17" y="277" key="Vcs.Push.Dialog.v2/0.23.1920.1103@0.23.1920.1103" timestamp="1615839093453" />
     <state x="17" y="277" key="Vcs.Push.Dialog.v2/0.23.1920.1105@0.23.1920.1105" timestamp="1614458101239" />
     <state x="17" y="278" key="Vcs.Push.Dialog.v2/0.23.1920.1107@0.23.1920.1107" timestamp="1611347449485" />
     <state x="17" y="278" key="Vcs.Push.Dialog.v2/0.23.1920.1108@0.23.1920.1108" timestamp="1608404204780" />
@@ -898,33 +986,26 @@
     <state x="679" y="475" width="337" height="337" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.23.1920.1105@0.23.1920.1105" timestamp="1614458048988" />
     <state x="679" y="476" width="337" height="232" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.23.1920.1107@0.23.1920.1107" timestamp="1611346534830" />
     <state x="679" y="476" width="337" height="232" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.23.1920.1108@0.23.1920.1108" timestamp="1608404476095" />
-    <state x="389" y="244" key="com.intellij.database.dbimport.ImportDialog" timestamp="1608067649242">
-      <screen x="0" y="23" width="1920" height="1107" />
-    </state>
-    <state x="389" y="244" key="com.intellij.database.dbimport.ImportDialog/0.23.1920.1107@0.23.1920.1107" timestamp="1608067649242" />
     <state x="185" y="492" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612020622582">
       <screen x="0" y="23" width="1920" height="1105" />
     </state>
     <state x="185" y="492" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.1105@0.23.1920.1105" timestamp="1612020622582" />
     <state x="185" y="493" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.1107@0.23.1920.1107" timestamp="1609103042207" />
-    <state x="185" y="493" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.1108@0.23.1920.1108" timestamp="1608111135294" />
     <state x="599" y="369" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1615838840062">
       <screen x="0" y="23" width="1920" height="1103" />
     </state>
     <state x="599" y="369" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1920.1103@0.23.1920.1103" timestamp="1615838840062" />
-    <state x="70" y="347" width="1149" height="771" key="new project wizard" timestamp="1615792808654">
-      <screen x="0" y="23" width="1920" height="1103" />
+    <state x="75" y="52" width="1149" height="771" key="new project wizard" timestamp="1615928008745">
+      <screen x="0" y="23" width="1920" height="1105" />
     </state>
     <state x="0" y="216" key="new project wizard/0.23.1920.1101@0.23.1920.1101" timestamp="1608920510061" />
     <state x="70" y="347" width="1149" height="674" key="new project wizard/0.23.1920.1103@0.23.1920.1103" timestamp="1615792808654" />
-    <state x="197" y="92" width="1149" height="771" key="new project wizard/0.23.1920.1105@0.23.1920.1105" timestamp="1614457879159" />
+    <state x="75" y="52" width="1149" height="771" key="new project wizard/0.23.1920.1105@0.23.1920.1105" timestamp="1615928008745" />
     <state x="28" y="176" key="new project wizard/0.23.1920.1107@0.23.1920.1107" timestamp="1613416241929" />
     <state x="197" y="448" key="new project wizard/0.23.1920.1108@0.23.1920.1108" timestamp="1608391212978" />
-    <state x="2" y="349" width="1149" height="674" key="new project wizard/0.23.1920.1110@0.23.1920.1110" timestamp="1607789983010" />
     <state x="435" y="274" width="670" height="676" key="search.everywhere.popup" timestamp="1609101736194">
       <screen x="0" y="23" width="1920" height="1107" />
     </state>
     <state x="435" y="274" width="670" height="676" key="search.everywhere.popup/0.23.1920.1107@0.23.1920.1107" timestamp="1609101736194" />
-    <state x="435" y="274" width="670" height="676" key="search.everywhere.popup/0.23.1920.1108@0.23.1920.1108" timestamp="1608071290442" />
   </component>
 </project>

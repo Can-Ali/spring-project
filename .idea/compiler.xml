@@ -38,6 +38,7 @@
         <module name="Spring-02-DI-SetterInjection" />
         <module name="Spring-10-Security-HttpBasic-AutoRoleBase" />
         <module name="Spring-05-JavaAnnotations-Component" />
+        <module name="Spring-13-UnitTesting-Mockito" />
         <module name="Spring-10-Security-FormAuthorization" />
         <module name="Spring-13-UnitTesting-Junit5" />
         <module name="spring-09-ORM-Mapping-OneToOne" />
@@ -88,6 +89,7 @@
       <module name="Spring-11-Rest-Security-JWT" target="11" />
       <module name="Spring-12-AOP" target="11" />
       <module name="Spring-13-UnitTesting-Junit5" target="1.8" />
+      <module name="Spring-13-UnitTesting-Mockito" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -118,6 +120,7 @@
       <module name="Spring-11-Rest-SchoolLab" options="-parameters" />
       <module name="Spring-11-Rest-Security-JWT" options="-parameters" />
       <module name="Spring-12-AOP" options="-parameters" />
+      <module name="Spring-13-UnitTesting-Mockito" options="-parameters" />
       <module name="spring-09-ORM-Mapping-OneToOne" options="-parameters" />
     </option>
   </component>
