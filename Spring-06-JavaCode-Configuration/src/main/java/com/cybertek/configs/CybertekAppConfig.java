@@ -21,7 +21,7 @@ public class CybertekAppConfig {
 
     @Bean
     public Selenium selenium(){
-        return new Selenium();
+        return new Selenium(extraSessions());
     }
 /*
     //@Bean

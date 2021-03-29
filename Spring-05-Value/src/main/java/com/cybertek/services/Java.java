@@ -2,7 +2,6 @@ package com.cybertek.services;
 
 import com.cybertek.interfaces.Course;
 import com.cybertek.interfaces.ExtraSessions;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
@@ -34,7 +33,7 @@ public class Java implements Course {
 //    @Qualifier
     private ExtraSessions extraSessions;
 
-    public Java(@Qualifier("officeHours") ExtraSessions extraSessions) {
+    public Java(@Qualifier("mockInterviewHours") ExtraSessions extraSessions) {
         this.extraSessions = extraSessions;
     }
 
