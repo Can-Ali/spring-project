@@ -44,10 +44,11 @@
         <option value="$PROJECT_DIR$/Spring-12-AOP/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-13-Unittesting-Junit5/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-13-UnitTesting-Mockito/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-13-UnitTesting-MockMVC/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="false" project-jdk-name="11" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

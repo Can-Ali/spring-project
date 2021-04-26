@@ -7,7 +7,6 @@ import com.cybertek.service.ProductService;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Controller;
 import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
 import org.springframework.web.bind.annotation.*;
@@ -63,6 +62,11 @@ public class ProductController {
         List<Product> list = productService.delete(id);
 
        return new ResponseEntity<>(list,responseHttpHeaders,HttpStatus.OK);
+//        return ResponseEntity
+//                .status(HttpStatus.OK)
+//                .header("Version","Cybertek.V1")
+//                .header("Operation","Create")
+//                .body(list);
     }
 
     @PutMapping(value = "/{id}")
