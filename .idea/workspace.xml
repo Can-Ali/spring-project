@@ -22,26 +22,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47d3fad2-c24e-4dec-8137-49d883aecff1" name="Default Changelist" comment="Spring-09 ORM modications">
-      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-MockMVC/Spring-13-UnitTesting-MockMVC.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-MockMVC/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-MockMVC/src/main/java/com/cybertek/DataRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-MockMVC/src/main/java/com/cybertek/DataRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-MockMVC/src/main/java/com/cybertek/UnitTestingImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-MockMVC/src/main/java/com/cybertek/controller/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-MockMVC/src/main/java/com/cybertek/controller/WelcomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-MockMVC/src/main/java/com/cybertek/entity/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-MockMVC/src/main/java/com/cybertek/repository/StudentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-MockMVC/src/main/java/com/cybertek/service/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-MockMVC/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-MockMVC/src/test/java/com/cybertek/UnitTestingImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-MockMVC/src/test/java/com/cybertek/controller/StudentControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-MockMVC/src/test/java/com/cybertek/controller/WelcomeControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="47d3fad2-c24e-4dec-8137-49d883aecff1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-MockMVC/src/main/java/com/cybertek/MockMVCApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-MockMVC/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-MockMVC/src/test/java/com/cybertek/controller/MockMVCApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-11-HttpVerbs-RestResponseEntity/src/main/java/com/cybertek/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-11-HttpVerbs-RestResponseEntity/src/main/java/com/cybertek/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-13-UnitTesting-MockMVC/src/test/java/com/cybertek/controller/StudentControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-13-UnitTesting-MockMVC/src/test/java/com/cybertek/controller/StudentControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +78,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Spring-13-UnitTesting-MockMVC" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Spring-13-UnitTesting-MockMVC/src/main/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -101,11 +87,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Spring-13-UnitTesting-MockMVC/src/main/resources" />
       <recent name="$PROJECT_DIR$/Spring-13-UnitTesting-MockMVC" />
       <recent name="$PROJECT_DIR$/Spring-13-UnitTesting-Mockito" />
       <recent name="$PROJECT_DIR$/Spring-13-UnitTesting-Junit5" />
       <recent name="$PROJECT_DIR$/Spring-12-AOP" />
-      <recent name="$PROJECT_DIR$/Spring-11-Rest-Security-JWT" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -128,7 +114,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.OrmConfigApplication">
+  <component name="RunManager" selected="Application.MockMVCApplication">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -166,9 +152,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CybertekApp (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.CybertekApp" />
-      <module name="Spring-06-JavaCode-PostConstruct-PreDestroy" />
+    <configuration name="CybertekMvcApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.CybertekMvcApplication" />
+      <module name="Spring-08-SpringBoot-MVC-Model" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.cybertek.*" />
@@ -179,9 +165,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CybertekMvcApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.CybertekMvcApplication" />
-      <module name="Spring-08-SpringBoot-MVC-Model" />
+    <configuration name="MockMVCApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.MockMVCApplication" />
+      <module name="Spring-13-UnitTesting-MockMVC" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.cybertek.*" />
@@ -389,11 +375,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MockMVCApplication" />
         <item itemvalue="Application.OrmConfigApplication" />
         <item itemvalue="Application.CybertekMvcApplication" />
         <item itemvalue="Application.AopApplication" />
         <item itemvalue="Application.CybertekApp (1)" />
-        <item itemvalue="Application.CybertekApp (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -770,7 +756,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617464486974</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Spring-UnitTesting MockMVC">
+      <created>1619464305132</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1619464305132</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -790,7 +783,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="ORM OneToOne Mapping - OneToMany and ManyToMany" />
     <MESSAGE value="ORM OneToOne Mapping - CinemaLab" />
     <MESSAGE value="; new tables added" />
     <MESSAGE value="data.sql added" />
@@ -815,7 +807,8 @@
     <MESSAGE value="Spring-modications singleton and prototype scopes" />
     <MESSAGE value="Spring-modications for annotations" />
     <MESSAGE value="Spring-09 ORM modications" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring-09 ORM modications" />
+    <MESSAGE value="Spring-UnitTesting MockMVC" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring-UnitTesting MockMVC" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
